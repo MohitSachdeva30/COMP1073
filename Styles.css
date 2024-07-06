@@ -1,0 +1,75 @@
+/* Reset and basic styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Main heading styles */
+h1 {
+	color: #333;
+}
+
+/* Gallery container */
+#gallery {
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Image figure styles */
+figure {
+	margin: 0;
+}
+
+/* Image styles */
+figure img {
+	width: 100%;
+	border-radius: 8px;
+}
+
+/* Caption styles */
+figcaption {
+	font-size: 1.2em;
+	margin-top: 10px;
+	color: #666;
+}
+
+/* Navigation list styles */
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 20px 0 0;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+/* List item styles */
+ul li {
+	display: inline;
+}
+
+/* Image link styles */
+ul li img {
+	cursor: pointer;
+	border: 2px solid transparent;
+	border-radius: 4px;
+	transition: all 0.3s ease;
+}
+
+/* Hover effect for images */
+ul li img:hover {
+	border-color: #333;
+}
+
+/* Active image style */
+ul li img.active {
+	filter: none;
+	border-color: #333;
+}
